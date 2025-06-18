@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Biryani Recipe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fff8e1, #ffe0b2);
+            color: #222222;
+        }
+
+        .navbar {
+            background-color: #222 !important;
+        }
+
+        .navbar-brand,
+        .nav-link,
+        .dropdown-item {
+            font-weight: bold;
+            color: red !important;
+        }
+
+        .nav-link:hover,
+        .dropdown-item:hover {
+            color: orange !important;
+        }
+
+        .dish img {
+            float: right;
+            width: 40%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .dish img:hover{
+            transform: scale(1.05);
+            transition: 0.7s;
+        }
+
+        .biryani {
+            padding: 30px;
+            overflow: auto;
+        }
+
+        .biryani h2 {
+            margin-top: 30px;
+            color: #c62828;
+        }
+
+        .biryani p,
+        .biryani li {
+            line-height: 1.6;
+            color: #4e342e;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ff7043;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Reci-spize</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Recipes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../indian.html">Indian</a></li>
+                            <li><a class="dropdown-item" href="../chinese.html">Chinese</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="biryani">
+        <div class="dish">
+            <img src="../images/ambur-biriyani.jpg" alt="Biryani">
+        </div>
+
+        <h2>Chicken Biryani Recipe</h2>
+        <hr>
+        <p>Chicken Biryani is a delicious and aromatic Indian rice dish made with layers of flavorful marinated chicken,
+            basmati rice, and exotic spices. It’s cooked by layering partially cooked rice and spiced chicken, then slow
+            cooking to perfection, allowing all flavors to blend beautifully.</p>
+
+        <h2>Ingredients</h2>
+        <hr>
+        <p>
+            - 2 cups Basmati Rice<br>
+            - 500g Chicken (bone-in preferred)<br>
+            - 1 cup Yogurt<br>
+            - 2 Onions, thinly sliced<br>
+            - 2 Tomatoes, chopped<br>
+            - 1 tbsp Ginger-Garlic Paste<br>
+            - 1/2 tsp Turmeric<br>
+            - 1 tsp Red Chili Powder<br>
+            - 1 tsp Garam Masala<br>
+            - 1/2 tsp Biryani Masala (optional)<br>
+            - 1/4 cup Mint Leaves<br>
+            - 1/4 cup Coriander Leaves<br>
+            - Whole spices (2 cardamoms, 4 cloves, 1 bay leaf, 1 cinnamon stick)<br>
+            - Salt to taste<br>
+            - Ghee or Oil<br>
+            - Saffron soaked in warm milk (optional)
+        </p>
+
+        <h2>Making Process</h2>
+        <hr>
+        <ol>
+            <li>Wash and soak basmati rice in water for 30 minutes. Then boil it with whole spices and salt until 70%
+                cooked. Drain and set aside.</li>
+            <li>Marinate the chicken with yogurt, ginger-garlic paste, turmeric, chili powder, and salt for at least 30
+                minutes (overnight preferred).</li>
+            <li>Heat ghee or oil in a large pan. Fry onions until golden brown. Remove half for garnishing later.</li>
+            <li>Add tomatoes to the remaining onions in the pan. Cook until soft.</li>
+            <li>Add marinated chicken and cook until chicken is 80% cooked and masala thickens.</li>
+            <li>Now layer time: In a thick-bottomed pot, add half of the cooked chicken masala, followed by a layer of
+                rice. Repeat.</li>
+            <li>Top with fried onions, mint, coriander, and saffron milk.</li>
+            <li>Cover tightly (use foil or dough to seal if needed). Cook on very low flame (dum) for 20–25 minutes.
+            </li>
+            <li>Turn off heat and let it rest for 10 minutes before opening. Gently fluff and serve hot with raita or
+                boiled eggs!</li>
+        </ol>
+    </div>
+</body>
+
+</html>

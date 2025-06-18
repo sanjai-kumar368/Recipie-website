@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ramen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f7fa, #f1f8e9, #fffde7);
+            color: #222222;
+        }
+
+        .navbar {
+            background-color: #222 !important;
+        }
+
+        .navbar-brand,
+        .nav-link,
+        .dropdown-item {
+            font-weight: bold;
+            color: red !important;
+        }
+
+        .nav-link:hover,
+        .dropdown-item:hover {
+            color: orange !important;
+        }
+
+        .dish img {
+            float: right;
+            width: 40%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .dish img:hover {
+            transform: scale(1.05);
+            transition: 0.7s;
+        }
+
+        .recipe-content {
+            padding: 30px;
+            overflow: auto;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-weight: bold;
+            color: #c62828;
+        }
+
+        p,
+        li {
+            font-weight: bold;
+            line-height: 1.6;
+            color: #4e342e;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ff7043;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Reci-spize</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Recipes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../chinese.html">Chinese</a></li>
+                            <li><a class="dropdown-item" href="../indian.html">Indian</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="recipe-content">
+        <div class="dish">
+            <img src="../images/ramen.jpg" alt="Japanese Ramen">
+        </div>
+
+        <h2>Japanese Ramen Recipe</h2>
+        <hr>
+        <p>Ramen is a comforting Japanese noodle soup made with a flavorful broth, noodles, toppings like soft-boiled
+            eggs, vegetables, and sliced meat. This version is simple yet satisfying, perfect for home cooking.</p>
+
+        <h2>Ingredients</h2>
+        <hr>
+        <p>
+            - 200g Ramen Noodles (fresh or instant)<br>
+            - 4 cups Chicken or Vegetable Broth<br>
+            - 1 tbsp Soy Sauce<br>
+            - 1 tbsp Miso Paste (optional)<br>
+            - 1 tsp Sesame Oil<br>
+            - 1 Garlic Clove (minced)<br>
+            - 1 tsp Grated Ginger<br>
+            - 1 Boiled Egg (halved)<br>
+            - Toppings: Spring Onions, Corn, Spinach, Mushrooms, or Sliced Chicken
+        </p>
+
+        <h2>How to Make Japanese Ramen</h2>
+        <hr>
+        <ol>
+            <li>In a pot, heat sesame oil. Add garlic and ginger. Sauté for a few seconds.</li>
+            <li>Pour in the broth. Add soy sauce and miso paste. Simmer for 10–15 minutes.</li>
+            <li>Cook ramen noodles in boiling water according to package instructions. Drain and set aside.</li>
+            <li>Place noodles in a bowl. Pour hot broth over them.</li>
+            <li>Top with boiled egg, vegetables, and sliced meat of your choice.</li>
+            <li>Garnish with spring onions and enjoy hot!</li>
+        </ol>
+    </div>
+
+
+</body>
+
+</html>
