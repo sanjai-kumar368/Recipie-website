@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Indian Dishes | Reci-spize</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #1b1b1b !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff5722 !important;
+      font-size: 28px;
+    }
+
+    .nav-link,
+    .dropdown-item {
+      color: greenyellow !important;
+      font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: blue !important;
+    }
+
+    .dropdown-menu {
+      background-color: #2c2c2c !important;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+
+    .dish-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .morningdish {
+      background-color: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+      text-align: center;
+    }
+
+    .morningdish img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .morningdish:hover {
+      transform: scale(1.03);
+    }
+
+    .morningdish h3 {
+      margin: 15px;
+      color: #444;
+    }
+
+    .section-box {
+      background: #ffffffcc;
+      margin: 40px 20px;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .section-box h2 {
+      color: #ff6f00;
+      font-size: 28px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    #contact {
+      background: linear-gradient(to right, #ff7043, #ffab91);
+      color: white;
+      padding: 30px;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    #contact h3,
+    #contact h4 {
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    hr.divider {
+      width: 80%;
+      margin: 40px auto;
+      border: 4px solid #000;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar-container"></div>
+
+  <div class="schedule">
+    <div class="section-box">
+      <h2><u>ALL INDIAN DISHES</u></h2>
+      <div class="dish-row">
+        <div class="morningdish">
+          <a href="./indian/dosa.html"><img src="../images/dosa.jpg" alt="Dosa"></a>
+          <h3>Dosa</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/idli.html"><img src="./images/idli.webp" alt="Idli"></a>
+          <h3>Idli</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/venpongal.html"><img src="./images/venpongal.jpeg" alt="Venpongal"></a>
+          <h3>Venpongal</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/Biriyani.html"><img src="./images/ambur-biriyani.jpg" alt="Biriyani"></a>
+          <h3>Biriyani</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/lemon rice.html"><img src="./images/turmeric-lemon.jpg" alt="Lemon rice"></a>
+          <h3>Lemon rice</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/fishcurry.html"><img src="./images/fishcurry.jpg" alt="Fish curry"></a>
+          <h3>Fish Curry</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/kadambasambar.html"><img src="./images/Kadamba-Sambar.jpg" alt="Kadamba Sambar"></a>
+          <h3>Kadamba Sambar</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div id="contact">
+    <h2>Contact</h2>
+    <h3>We’d love to hear from you!</h3>
+    <p>If you have any questions, recipe suggestions, or just want to say hello, feel free to reach out to us.</p>
+    <h4>📧 Email us at: <a href="mailto:Recispize@gmail.com" style="color: white; text-decoration: underline;">Recispize@gmail.com</a></h4>
+  </div>
+
+  <script src="navbar.js"></script>
+</body>
+</html>

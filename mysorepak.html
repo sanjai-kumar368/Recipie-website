@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mysore Pak Recipe | Reci-spize</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #1b1b1b !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff5722 !important;
+      font-size: 28px;
+    }
+
+    .nav-link,
+    .dropdown-item {
+      color: greenyellow !important;
+      font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: blue !important;
+    }
+
+    .dropdown-menu {
+      background-color: #2c2c2c !important;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+
+    .dish img {
+      float: right;
+      width: 40%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.7s;
+    }
+
+    .dish img:hover {
+      transform: scale(1.05);
+    }
+
+    .mysorepak {
+      padding: 40px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #d84315;
+      font-weight: 700;
+    }
+
+    p,
+    li {
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    hr {
+      border: none;
+      height: 3px;
+      background-color: #ff7043;
+      margin: 20px 0;
+      border-radius: 2px;
+    }
+
+    .review-section {
+      background-color: #fff8e1;
+      border: 2px dashed #ff9800;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    .review-section h3 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      resize: vertical;
+    }
+
+    .btn-submit {
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn-submit:hover {
+      background-color: #e64a19;
+    }
+
+    #contact {
+      background: linear-gradient(to right, #ff7043, #ffab91);
+      text-align: center;
+      border-radius: 10px;
+      color: white;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+
+    #contact h2 {
+      margin-bottom: 15px;
+      font-weight: bolder;
+      font-size: 32px;
+    }
+
+    #contact hr {
+      width: 100px;
+      height: 4px;
+      border: none;
+      background-color: black;
+      margin: 10px auto;
+    }
+
+    #contact h3,
+    #contact h4 {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Reci-spize</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Recipes</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../indian.html">Indian</a></li>
+              <li><a class="dropdown-item" href="../chinese.html">Chinese</a></li>
+              <li><a class="dropdown-item" href="./sweets.html">Sweets</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mysorepak mt-5 pt-5">
+    <div class="dish">
+      <img src="./images/mysoore pak.jpg" alt="Mysore Pak">
+    </div>
+
+    <h2>Mysore Pak Recipe</h2>
+    <hr>
+    <p>Mysore Pak is a traditional South Indian sweet made with generous amounts of ghee, gram flour, and sugar. It's known for its rich flavor and melt-in-the-mouth texture, often served during festivals and special occasions.</p>
+
+    <h2>Ingredients</h2>
+    <hr>
+    <p>
+      • 1 cup Besan (gram flour)<br>
+      • 1 cup Ghee (clarified butter)<br>
+      • 1 cup Sugar<br>
+      • 1/2 cup Water
+    </p>
+
+    <h2>Making Process</h2>
+    <hr>
+    <ol>
+      <li>Sieve the besan and roast it lightly in a pan until aromatic (do not brown).</li>
+      <li>In a separate pan, dissolve sugar in water and boil until it reaches one-string consistency.</li>
+      <li>Slowly add roasted besan into the sugar syrup, stirring continuously to avoid lumps.</li>
+      <li>Gradually add melted ghee in batches, stirring until the mixture leaves the sides of the pan.</li>
+      <li>Pour into a greased tray, level it, and cut into squares while warm. Let it cool and set completely.</li>
+    </ol>
+
+    <div class="review-section">
+      <h3>Leave a Review</h3>
+      <textarea rows="5" placeholder="Share your thoughts or your own twist to the recipe..."></textarea>
+      <br><br>
+      <button class="btn-submit">Submit Review</button>
+    </div>
+
+    <div id="contact">
+      <h2>Contact</h2>
+      <hr>
+      <h3>For queries mail</h3>
+      <h4>📧: Recispize@gmail.com</h4>
+    </div>
+  </div>
+</body>
+
+</html>

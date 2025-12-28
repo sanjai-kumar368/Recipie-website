@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reci-spize</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #1b1b1b !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff5722 !important;
+      font-size: 28px;
+    }
+
+    .dropdown-menu {
+      background-color: #2c2c2c !important;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+
+
+    .nav-link,
+    .dropdown-item {
+      color: greenyellow !important;
+      font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: blue !important;
+    }
+
+    #intro fieldset {
+      border: none;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin: 30px auto;
+      max-width: 900px;
+    }
+
+    #intro h1 {
+      font-size: 36px;
+      color: #d84315;
+      font-weight: 700;
+    }
+
+    #intro p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .carousel-img {
+      height: 420px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .carousel-caption p {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #00796b;
+      font-weight: 700;
+    }
+
+    .biriyani,
+    .dish-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .dish,
+    .morningdish {
+      background-color: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .dish img,
+    .morningdish img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .dish:hover,
+    .morningdish:hover {
+      transform: scale(1.03);
+    }
+
+    .morningdish h3 {
+      margin: 15px;
+      color: #444;
+    }
+
+    .section-box {
+      background: #ffffffcc;
+      margin: 40px 20px;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .section-box h2 {
+      color: #ff6f00;
+    }
+
+    #contact {
+      background: linear-gradient(to right, #ff7043, #ffab91);
+      color: white;
+      padding: 30px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    #contact h2 {
+      font-size: 32px;
+    }
+
+    #contact h3,
+    #contact h4 {
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar-container"></div>
+
+  <div id="intro">
+    <fieldset>
+      <h1><u>Welcome to Reci-spize</u></h1>
+      <p>Experience the world's cultures through their culinary masterpieces. Reci-spize brings you easy-to-follow
+        recipes from around the globe.</p>
+      <p>From spicy curries to sweet desserts, discover international flavors at your fingertips. Just click and cook!
+      </p>
+      <p>Let your kitchen be your passport.</p>
+    </fieldset>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./indian/laddu.html"><img src="./images/laddu 2.jpg" class="d-block w-100 carousel-img"
+            alt="laddu"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Delicious Indian Laddu</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="./mysorepak.html"><img src="./images/mysoore pak.jpg" class="d-block w-100 carousel-img"
+            alt="Mysore Pak"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Golden Mysore Pak Sweet</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="./indian/gulabJamun.html"><img src="./images/gulab jamun.png" class="d-block w-100 carousel-img"
+            alt="Gulabjamun"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Soft & Juicy Gulab Jamun</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="./indian/rasagulas.html"><img src="./images/rasagulla.jpg" class="d-block w-100 carousel-img"
+            alt="Rasagulas"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Tender Rasagullas from Bengal</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="./indian/payasam.html"><img src="./images/payasam.jpg" class="d-block w-100 carousel-img"
+            alt="Payasam"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Creamy South Indian Payasam</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="biriyani">
+    <div class="dish">
+      <a href="./indian/Biriyani.html"><img src="./images/ambur-biriyani.jpg" alt="Ambur Biriyani"></a>
+    </div>
+    <div class="dish">
+      <a href="./indian/kadambasambar.html"><img src="./images/Kadamba-Sambar.jpg" alt="Kadamba Sambar"></a>
+    </div>
+    <div class="dish">
+      <a href="./indian/lemon rice.html"><img src="./images/lemon.jpeg" alt="Lemon Rice"></a>
+    </div>
+    <div class="dish">
+      <a href="./chinese/vietnamesepho.html"><img src="./images/chinesesoup.jpg" alt="Pho Soup"></a>
+    </div>
+  </div>
+
+
+  <div class="schedule">
+    <div class="section-box">
+      <h2><u>Breakfast</u></h2>
+      <div class="dish-row">
+        <div class="morningdish">
+          <a href="./indian/dosa.html"><img src="./images/dosa.jpg" alt="Dosa"></a>
+          <h3>Dosa</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/idli.html"><img src="./images/idli.webp" alt="Idli"></a>
+          <h3>Idli</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./indian/venpongal.html"><img src="./images/venpongal.jpeg" alt="Venpongal"></a>
+          <h3>Venpongal</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-box">
+      <h2><u>Lunch</u></h2>
+      <div class="dish-row">
+        <div class="morningdish">
+          <a href="./chinese/chinese friedrice.html"><img src="./images/friedrice.jpg" alt="Fried Rice"></a>
+          <h3>Fried Rice</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./chinese/ramen.html"><img src="./images/ramen.jpg" alt="Ramen"></a>
+          <h3>Ramen</h3>
+        </div>
+        <div class="morningdish">
+          <a href="./chinese/tofu.html"><img src="./images/tofu.jpeg" alt="Tofu"></a>
+          <h3>Tofu</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <h2>Contact</h2>
+    <hr>
+    <h3>We’d love to hear from you!</h3>
+    <p>If you have any questions, recipe suggestions, or just want to say hello, feel free to reach out to us.</p>
+    <p>We’re always looking to improve and explore new tastes with our fellow food lovers.</p>
+    <h4>📧 Email us at: <a href="mailto:Recispize@gmail.com"
+        style="color: white; text-decoration: underline;">Recispize@gmail.com</a></h4>
+  </div>
+  <script src="navbar.js"></script>
+
+</body>
+
+
+</html>

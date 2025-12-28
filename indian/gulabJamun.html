@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Gulab Jamun Recipe | Reci-spize</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #1b1b1b !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff5722 !important;
+      font-size: 28px;
+    }
+
+    .nav-link,
+    .dropdown-item {
+      color: greenyellow !important;
+      font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: blue !important;
+    }
+
+    .dropdown-menu {
+      background-color: #2c2c2c !important;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+
+    .dish img {
+      float: right;
+      width: 40%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.7s;
+    }
+
+    .dish img:hover {
+      transform: scale(1.05);
+    }
+
+    .laddu {
+      padding: 40px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #d84315;
+      font-weight: 700;
+    }
+
+    p,
+    li {
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    hr {
+      border: none;
+      height: 3px;
+      background-color: #ff7043;
+      margin: 20px 0;
+      border-radius: 2px;
+    }
+
+    .review-section {
+      background-color: #fff8e1;
+      border: 2px dashed #ff9800;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    .review-section h3 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      resize: vertical;
+    }
+
+    .btn-submit {
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn-submit:hover {
+      background-color: #e64a19;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Reci-spize</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Recipes</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../indian.html">Indian</a></li>
+              <li><a class="dropdown-item" href="../chinese.html">Chinese</a></li>
+              <li><a class="dropdown-item" href="./sweets.html">Sweets</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="laddu mt-5 pt-5">
+    <div class="dish">
+      <img src="../images/gulab-jamun.jpeg" alt="Gulab Jamun">
+    </div>
+
+    <h2>Gulab Jamun Recipe</h2>
+    <hr>
+    <p>Gulab Jamun is a beloved Indian dessert made from milk solids and soaked in fragrant sugar syrup. These soft, juicy balls are perfect for festive occasions and celebrations.</p>
+
+    <h2>Ingredients</h2>
+    <hr>
+    <p>
+      • 1 cup Milk Powder<br>
+      • 1/4 cup All-purpose Flour (Maida)<br>
+      • 2 tbsp Ghee<br>
+      • 1/4 cup Milk (warm, as needed)<br>
+      • 1/8 tsp Baking Soda<br>
+      • Oil or Ghee for deep frying<br>
+      <br>
+      <strong>For Sugar Syrup:</strong><br>
+      • 1.5 cups Sugar<br>
+      • 1.5 cups Water<br>
+      • 2-3 Cardamom Pods<br>
+      • Few Saffron Strands (optional)<br>
+      • 1 tsp Rose Water (optional)
+    </p>
+
+    <h2>Making Process</h2>
+    <hr>
+    <ol>
+      <li>In a bowl, mix milk powder, flour, baking soda, and ghee. Slowly add warm milk to form a soft dough. Let it rest for 10 minutes.</li>
+      <li>Meanwhile, make the sugar syrup by boiling water, sugar, and cardamom until slightly sticky. Add saffron and rose water. Keep warm.</li>
+      <li>Divide the dough into small balls with no cracks. Heat oil on medium-low and fry the balls until golden brown.</li>
+      <li>Drain and immediately soak the fried balls in warm sugar syrup. Let them absorb the syrup for at least 1 hour before serving.</li>
+    </ol>
+
+    <div class="review-section">
+      <h3>Leave a Review</h3>
+      <textarea rows="5" placeholder="Share your thoughts or your own twist to the recipe..."></textarea>
+      <br><br>
+      <button class="btn-submit">Submit Review</button>
+    </div>
+  </div>
+</body>
+
+</html>

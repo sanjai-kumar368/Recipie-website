@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dosa Recipe | Reci-spize</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #1b1b1b !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff5722 !important;
+      font-size: 28px;
+    }
+
+    .nav-link,
+    .dropdown-item {
+      color: greenyellow !important;
+      font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: blue !important;
+    }
+
+    .dropdown-menu {
+      background-color: #2c2c2c !important;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+
+    .dish img {
+      float: right;
+      width: 40%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.7s;
+    }
+
+    .dish img:hover {
+      transform: scale(1.05);
+    }
+
+    .dosa {
+      padding: 40px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #d84315;
+      font-weight: 700;
+    }
+
+    p,
+    li {
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    hr {
+      border: none;
+      height: 3px;
+      background-color: #ff7043;
+      margin: 20px 0;
+      border-radius: 2px;
+    }
+
+    .review-section {
+      background-color: #fff8e1;
+      border: 2px dashed #ff9800;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    .review-section h3 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      resize: vertical;
+    }
+
+    .btn-submit {
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn-submit:hover {
+      background-color: #e64a19;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">Reci-spize</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Recipes</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../indian.html">Indian</a></li>
+              <li><a class="dropdown-item" href="../chinese.html">Chinese</a></li>
+              <li><a class="dropdown-item" href="./sweets.html">Sweets</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="dosa">
+    <div class="dish">
+      <img src="../images/dosa.jpg" alt="Dosa">
+    </div>
+
+    <h2>Dosa Recipe</h2>
+    <hr>
+    <p>Dosa is a traditional and ever-popular South Indian breakfast dish made from a fermented rice and urad dal
+      (black gram) batter. It’s spread thin on a hot griddle, creating a golden, savory, crispy crepe. Typically served
+      with Coconut Chutney and Sambar, it's a wholesome and flavorful start to your day.</p>
+
+    <h2>Ingredients</h2>
+    <hr>
+    <p>
+      • 3/4 cup Parboiled Rice (idli-dosa rice)<br>
+      • 3/4 cup Regular Rice<br>
+      • 1/2 cup Whole Urad Dal (or split urad dal)<br>
+      • 1/4 tsp Fenugreek Seeds<br>
+      • 1/2 tbsp Chana Dal (optional)<br>
+      • Water as needed<br>
+      • Salt to taste<br>
+      • Oil for frying
+    </p>
+
+    <h2>Making Process</h2>
+    <hr>
+    <ol>
+      <li>Rinse and soak both types of rice together for 4–5 hours.</li>
+      <li>Rinse urad dal, chana dal, and methi together and soak for 4–5 hours.</li>
+      <li>Grind soaked dals with water until smooth and fluffy. Transfer to a container.</li>
+      <li>Grind rice until smooth. Mix with dal batter. Add salt and let ferment for 8–10 hours.</li>
+      <li>After fermentation, stir the batter and adjust consistency with water if too thick.</li>
+      <li>Heat a tawa, grease with oil, and pour a ladle of batter. Spread in circular motion.</li>
+      <li>Drizzle oil on edges. Cook until golden brown. Flip if necessary.</li>
+      <li>Serve hot with chutney and sambar!</li>
+    </ol>
+
+    
+    <div class="review-section">
+      <h3>Leave a Review</h3>
+      <textarea rows="5" placeholder="Share your thoughts or your own twist to the recipe..."></textarea>
+      <br><br>
+      <button class="btn-submit">Submit Review</button>
+    </div>
+  </div>
+</body>
+
+</html>
