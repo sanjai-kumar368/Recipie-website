@@ -1,40 +1,105 @@
-# Recipie-website
-Welcome to Reci-spize, a vibrant and simple recipe website where you can discover delicious dishes from different countries — especially Indian and Chinese cuisines!
-you can visit my website here 👉 https://sanjai-kumar368.github.io/Recipie-website/
+## Reci-spize – Global Recipe Website
 
-📌 Features
-🍛 Lists of dishes from Indian and Chinese cuisines
+## Overview
+Reci-spize is a static recipe website designed to showcase delicious dishes from different cuisines around the world.  
+The project focuses on clean UI, simple navigation, and visually appealing recipe sections.  
+It was created as part of my learning journey in HTML and CSS and later upgraded with improved design and structure.
 
-🖼️ Beautiful recipe cards with images
+## Live Website:  
+https://sanjai-kumar368.github.io/Recipie-website/
 
-📃 Step-by-step cooking instructions
+---
 
-📱 Responsive design using Bootstrap
+## Purpose of the Project
+The main objectives of this project are:
+- To practice frontend development using core web technologies
+- To design a structured and user-friendly recipe website
+- To understand website deployment using GitHub Pages
+- To build a presentable portfolio project
 
-🎨 Light-colored, smooth background with modern UI
+---
 
-#Folder Structure
+## Features
+- Categorized recipe sections such as breakfast, lunch, and desserts
+- Clean and simple user interface
+- Image-based recipe cards
+- Contact section for feedback
+- Static website hosted on GitHub Pages
+- No frameworks or external libraries used
 
-reci-spize/
+---
+
+## Technologies Used
+- HTML5 for structuring content
+- CSS3 for styling and layout
+- GitHub Pages for deployment
+
+---
+
+## Project Structure
+
+Recipie-website/
 │
-├── index.html                # Home page
-├── indian.html               # Lists Indian dishes
-├── chinese.html              # Lists Chinese dishes
-├── /indian/                  # Folder containing individual Indian recipes
-├── /chinese/                 # Folder containing individual Chinese recipes
-├── /images/                  # Dish images
-└── README.md                 # This file
-
-🚀 Technologies Used
-
-1.HTML
-
-2.CSS
-
-3.Bootstrap
+├── index.html # Main entry file
+├── style.css # Stylesheet
+├── assets/ # Images and static resources
+└── README.md # Project documentation
 
 
-🙏 Acknowledgements
-Thanks to Bootstrap for the responsive layout.
+---
 
-Images used are from free sources or demo stock.
+## Deployment
+This website is deployed using GitHub Pages.
+
+Deployment process:
+- The repository contains an index.html file at the root level
+- GitHub Pages is enabled from repository settings
+- The site is served from the main branch
+
+Any updates pushed to the repository are automatically reflected on the live website.
+
+---
+
+## Project Evolution
+### Version 1 (Basic)
+- Simple recipe website
+- Basic HTML and CSS styling
+- Created while learning web development fundamentals
+
+### Version 2 (Advanced)
+- Improved UI and layout
+- Better content organization
+- Enhanced overall user experience
+- Current live version
+
+The original version is preserved in a separate branch for reference.
+
+---
+
+## What I Learned
+Through this project, I gained experience in:
+- Writing clean and semantic HTML
+- Designing layouts using CSS
+- Organizing a frontend project
+- Deploying and maintaining a website on GitHub Pages
+
+---
+
+## Future Improvements
+Planned enhancements include:
+- Making the website fully responsive
+- Adding JavaScript for interactivity
+- Implementing recipe search and filters
+- Adding more recipes and categories
+- Improving accessibility and performance
+
+---
+
+## Contact
+Email: sanjaikumarsasi@gmail.com
+GitHub: https://github.com/sanjai-kumar368
+
+---
+
+## License
+This project is open-source and intended for educational and personal use.
