@@ -94,6 +94,14 @@ Planned enhancements include:
 - Improving accessibility and performance
 
 ---
+### Website Interface
+<img width="1882" height="836" alt="image" src="https://github.com/user-attachments/assets/30764ee0-a0d7-42fe-9742-e2cf641d275a" />
+<img width="1900" height="855" alt="image" src="https://github.com/user-attachments/assets/12694cb8-6bd8-49b4-a5d7-543aa8b3f85a" />
+<img width="1901" height="854" alt="image" src="https://github.com/user-attachments/assets/696fe80a-c906-495e-bd6a-b4890b6e7bb0" />
+<img width="1897" height="851" alt="image" src="https://github.com/user-attachments/assets/a1883925-29e2-418e-86ba-715553006e59" />
+<img width="1895" height="840" alt="image" src="https://github.com/user-attachments/assets/51a80d3d-35b4-4c71-9ed6-b454323c89e9" />
+
+---
 
 ## Contact
 Email: sanjaikumarsasi@gmail.com
